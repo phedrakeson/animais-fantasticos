@@ -3,7 +3,6 @@
  ![](https://img.shields.io/github/stars/phedrakeson/animais-fantasticos) ![](https://img.shields.io/github/license/phedrakeson/animais-fantasticos) ![](https://img.shields.io/github/languages/code-size/phedrakeson/animais-fantasticos)
  
 
-------------
 
 
 ![Animais Fantásticos](https://i.gyazo.com/f2d1ae0545ca7fe63d9f7db56fb98043.gif)
