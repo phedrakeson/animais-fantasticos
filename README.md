@@ -13,7 +13,4 @@
 
 Este projeto foi feito durante a prática do curso de Javascript ES6+ do Origamid (https://www.origamid.com/) na aula de DOM Básico.
 
-------------
-
-
 [Clique aqui](http://animais-fantasticos-p.netlify.app/ "Site em Deploy") para conferir o site em seu browser 🖖
