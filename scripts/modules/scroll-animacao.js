@@ -10,6 +10,9 @@ export default function initAnimacaoScroll() {
         if(isSectionVisible) {
           section.classList.add('scrollToggle');
         }
+        else if(section.classList.contains('scrollToggle')) {
+          section.classList.remove('scrollToggle');
+        }
       })
     }
   
