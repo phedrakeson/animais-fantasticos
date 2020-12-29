@@ -1,8 +1,8 @@
-export default function initFetchBitcoin() {
-  fetch('https://blockchain.info/ticker')
+export default function fetchBitcoin(url, target) {
+  fetch(url)
   .then(r => r.json())
   .then(bitcoin => {
-    document.querySelector('.btc-preco').innerText = (1000 / bitcoin.BRL.sell).toFixed(4);
+    document.querySelector(target).innerText = (1000 / bitcoin.BRL.sell).toFixed(4);
   }).catch(erro => {
     console.log(Error(erro));
   }) 
