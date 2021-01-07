@@ -192,6 +192,7 @@ export default class SlideNav extends Slide {
     this.controlArray = [...this.control.children];
     this.activeControlItem();
     this.controlArray.forEach(this.eventControl)
+    console.log(this.controlArray)
   }
 
   activeControlItem() {

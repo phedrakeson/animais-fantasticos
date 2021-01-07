@@ -33,7 +33,7 @@ dropdownMenu.init();
 menuMobile.init();
 funcionamento.init();
 slide.init();
-slide.addControl('.customControl');
+slide.addControl('.custom-control');
 
 
 fetchBitcoin('https://blockchain.info/ticker', '.btc-preco');
