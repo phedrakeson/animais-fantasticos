@@ -21,7 +21,8 @@
   border: 10px solid #fd5;
   box-shadow: 0 0 0 10px white;
   position: relative;
-  min-width: 300px;
+  max-width: 600px;
+  width: 80vw;
 }
 
 @keyframes modal {
