@@ -1,0 +1,81 @@
+.galeria {
+  grid-column: 1 / -1;
+}
+
+.wrapper {
+  overflow: hidden;
+  grid-column: 1 / -1;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide:hover {
+  will-change: transform;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  transform: scale(0.8);
+  transition: 0.4s;
+}
+
+.slide li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+[data-control='slide'] {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+[data-control='slide'] li a {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #fb5;
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: -2000px;
+  margin: 5px;
+}
+
+[data-control='slide'] li.active a,
+[data-control='slide'] li a:hover {
+  background: #e54;
+}
+
+.custom-control {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+}
+
+.custom-control li {
+  opacity: 0.8;
+  transform: scale(0.8);
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.custom-control li.active {
+  opacity: 1;
+  transform: scale(1);
+}
